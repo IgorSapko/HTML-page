@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build:css": "postcss ./styles/styles.css -o ./prefixed-styles/styles-prefixed.css"
+    "build:css": "postcss ./styles/styles.css -o ./prefixed-styles/styles-prefixed.css",
+    "minicss":" minify prefixed-styles/styles-prefixed.css > min-html-css/styles.min.css",
+    "minihtml":" minify index.html > min-html-css/index.min.html",
+    "minihtmlcss":"postcss ./styles/styles.css -o ./prefixed-styles/styles-prefixed.css && minify index.html > min-html-css/index.min.html && minify prefixed-styles/styles-prefixed.css > min-html-css/styles.min.css && minify styles/normalize.css > min-html-css/normalize.min.css"
   },
   "author": "IgorSapko",
   "license": "ISC",
   "dependencies": {
+    "minify": "^7.0.2",
     "save-dev": "0.0.1-security"
   },
   "devDependencies": {

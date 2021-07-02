@@ -6,6 +6,8 @@
 
 # production
 /build
+/min-html-css
+/prefixed-styles
 
 npm-debug.log*
 
