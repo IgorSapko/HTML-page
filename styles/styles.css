@@ -67,6 +67,7 @@ background-color: #eee;
     height: 50px;
     border-top: solid 1px #999;
     box-sizing: border-box;
+    background-color:#fff;
     position: fixed;
     top: calc(100vh - 50px);
     left: auto;
