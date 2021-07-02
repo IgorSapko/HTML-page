@@ -1,0 +1,20 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "NDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build:css": "postcss ./styles.css -o ./prefixed-styles/styles-prefixed.css"
+  },
+  "author": "IgorSapko",
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1"
+  }
+}
