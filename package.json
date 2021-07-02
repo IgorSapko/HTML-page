@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build:css": "postcss ./styles.css -o ./prefixed-styles/styles-prefixed.css"
+    "build:css": "postcss ./styles/styles.css -o ./prefixed-styles/styles-prefixed.css"
   },
   "author": "IgorSapko",
   "license": "ISC",
